@@ -6359,7 +6359,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 227962353}
-  m_LocalRotation: {x: -0.29816753, y: 1.6147565e-15, z: 1.7112556e-16, w: 0.95451355}
+  m_LocalRotation: {x: -0.29816756, y: 0.000000028446724, z: 0.0000000088860865, w: 0.95451355}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -11790,9 +11790,9 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 452659128}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fca4a71da490f047b9b01583bdb5803, type: 3}
+  m_Script: {fileID: 11500000, guid: 0cf8765c20aef3a4fbd7747eec4b89f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!143 &452659139
@@ -11864,6 +11864,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 1
+--- !u!114 &452659173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452659128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 899902d827883a7488d521815e8e0386, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  freeLookCamera: {fileID: 624663201}
+  walkSpeed: 5
+  runSpeed: 10
 --- !u!1 &455029960
 GameObject:
   m_ObjectHideFlags: 0

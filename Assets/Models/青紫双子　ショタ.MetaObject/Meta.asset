@@ -19,9 +19,9 @@ MonoBehaviour:
   ContactInformation: 
   Reference: 
   Thumbnail: {fileID: 2800000, guid: 8348bd5dc5907574e8c8bd7914cc231f, type: 3}
-  AllowedUser: 0
+  AllowedUser: 1
   ViolentUssage: 0
-  SexualUssage: 0
+  SexualUssage: 1
   CommercialUssage: 0
   OtherPermissionUrl: 
   LicenseType: 0
